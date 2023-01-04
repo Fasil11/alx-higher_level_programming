@@ -7,7 +7,7 @@ the_string = ""
 
 if number < 0:
     digit = -digit
-the_string = f"the last digit of {number} is {digit} and"
+the_string = f"Last digit of {number} is {digit} and"
 if digit > 5:
     print(f"{the_string} is greater than 5")
 elif digit == 0:
