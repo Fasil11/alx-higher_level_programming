@@ -3,6 +3,7 @@ import random
 number = random.randint(-10000, 10000)
 
 digit = abs(number) % 10
+the_string = ""
 
 if number < 0:
     digit = -digit
