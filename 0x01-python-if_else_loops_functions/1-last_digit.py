@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 import random
 number = random.rndint(-10000, 10000)
-
+i
 digit = abs(number) % 10
 
 if number < 0:
     digit = -digit
 
-    the_string = f"the last digit of {number} is {digit} and"
+    print(f"the last digit of {number} is {digit} and")
 
 if digit > 5:
-    print(f"{the_string} is greater than 5")
+    print("is greater than 5")
 elif digit == 0:
-    print(f"{the_string} is 0")
+    print("is 0")
 else:
-    print(f"{the_string} is less than 6 and not 0")
+    print("is less than 6 and not 0")
