@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def print_list_integer(my_list):
-    for items in my_list:
+def print_list_integer(my_list=[]):
+    for number in my_list:
         if isinstance(item,, int):
-            print("{}".format(item))
+            print("{:d}".format(number))
