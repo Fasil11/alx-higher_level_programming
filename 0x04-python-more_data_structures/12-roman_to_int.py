@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 def roman_to_int(roman_string):
+
     if not roman_string:
         return 0
     if not isinstance(roman_string, str):
@@ -21,9 +22,11 @@ def roman_to_int(roman_string):
 
     result = 0
     temp = list(roman_string)
+
     if len(temp) > 1:
         idx = 0
         for i in temp:
+
             try:
                 if temp[idx] == 'I' and temp[idx + 1] == 'V':
                     temp[idx:idx + 2] = [''.join(temp[idx:idx + 2])]
@@ -35,8 +38,10 @@ def roman_to_int(roman_string):
             except IndexError:
                 pass
             idx += 1
+
     for k, v in r_dict.items():
         for index in temp:
             if index == k:
                 result += v
+
     return result
