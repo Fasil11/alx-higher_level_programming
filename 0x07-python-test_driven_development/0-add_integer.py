@@ -10,3 +10,7 @@ def add_integer(a, b=98):
     if isinstance(b, float):
         b = int(b)
     return (a + b)
+
+user = int(input("Enter Value: "))
+
+add_integer(user)
