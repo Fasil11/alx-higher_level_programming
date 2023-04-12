@@ -1,5 +1,5 @@
-#!/usr/bin/node
-//prints “JavaScript is amazing”
+#!/usr/bin/nod
 
 const myVar = 'Javascript is amazing';
+
 console.log(myVar);
